@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(222, 111, 161);
+  background: radial-gradient(#de6fa1 20%, #fbaed2 100%);
+  padding: 10px;
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 600px;
+  background: transparent;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(80, 80, 80, 0.8);
+  z-index: -10;
+}
+
+.todo-app h1 {
+  color: #535353;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.todo-app h1 img {
+  margin-left: 18px;
+}
+
+.task-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-size: 15px;
+}
+
+input::placeholder {
+  color: #625d5d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.add-button {
+  border: none;
+  outline: none;
+  padding: 14px 28px;
+  background: #535353;
+  color: #fff;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  border-radius: 35px;
+}
+
+.add-button:hover {
+  opacity: 0.85;
+}
+
+
+.task-item {
+  display: flex;
+  background: #fae5ef;
+  padding: 10px 18px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.task-item input {
+  margin-right: 25px;
+  accent-color: #5d8aa8;
+  height: 14px;
+  width: 14px;
+}
+
+.task-item span {
+  flex: 1;
+  color: #1b2124;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+span.checked {
+  opacity: 0.8;
+  text-decoration: line-through;
+}
+
+.task-item button {
+  padding: 0 12px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.edit-button {
+  color: #4682b4;
+}
+
+.delete-button {
+  color: #e3242ae5;
+}
+
+@media (max-width: 400px){
+  .todo-app h1{
+    font-size: 30px;
+  }
+  .todo-app h1 img{
+    width:30px;
+    height:30px;
+    margin-left:10px
+  }
+  .task-form{
+    padding-left:0;
+  }
+}
