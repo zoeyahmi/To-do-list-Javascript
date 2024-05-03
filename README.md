@@ -17,5 +17,5 @@ You can try the [demo here](https://zoeyahmi.github.io/To-do-list-Javascript-/)
 Contributions are welcome!
 
 ## Acknowledgements
-Icons by [Font Awesome](https://fontawesome.com/)
-
+- Icons by [Font Awesome](https://fontawesome.com/)
+- Text fonts by [Google fonts](https://fonts.google.com/)
