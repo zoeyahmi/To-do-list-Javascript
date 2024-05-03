@@ -2,7 +2,7 @@
 A basic To-do list application built with HTML, CSS and Javascript that allows users to add, edit and delete tasks.
 
 ## Demo
-You can try the [demo here](https://zoeyahmi.github.io/To-do-list-Javascript-/)
+You can try the [demo here](https://zoeyahmi.github.io/To-do-list-Javascript/)
 
 ## Features
 - Add tasks: Enter a task in the input field and press enter or click on the add button to add to todo list.
