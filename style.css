@@ -137,4 +137,8 @@ span.checked {
   .task-form{
     padding-left:0;
   }
+  .task-item input{
+    width: 10px;
+    height: 10px
+  }
 }
