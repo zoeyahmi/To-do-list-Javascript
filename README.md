@@ -11,7 +11,7 @@ You can try the [demo here](https://zoeyahmi.github.io/To-do-list-Javascript-/)
 - Mark tasks as complete: Check the checkbox next to a task to mark it as completed.
 
 ## Screenshot
-![Todo List App Screenshot](screenshot.png)
+![Todo List App Screenshot](assets/images/screenshot.png)
 
 ## Contributing
 Contributions are welcome!
