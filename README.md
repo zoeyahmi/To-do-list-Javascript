@@ -7,7 +7,7 @@ You can try the [demo here](https://zoeyahmi.github.io/To-do-list-Javascript/)
 ## Features
 - Add tasks: Enter a task in the input field and press enter or click on the add button to add to todo list.
 - Edit tasks: Click on the edit button next to the task to edit its content.
-- Delete task: Clck on the delete button next to task to remove it from the list.
+- Delete tasks: Click on the delete button next to task to remove it from the list.
 - Mark tasks as complete: Check the checkbox next to a task to mark it as completed.
 
 ## Screenshot
@@ -18,4 +18,4 @@ Contributions are welcome!
 
 ## Acknowledgements
 - Icons by [Font Awesome](https://fontawesome.com/)
-- Text fonts by [Google fonts](https://fonts.google.com/)
+- Fonts by [Google fonts](https://fonts.google.com/)
