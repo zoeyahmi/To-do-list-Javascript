@@ -61,6 +61,7 @@ input::placeholder {
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 400;
+  margin-left: 10px;
 }
 
 .add-button {
